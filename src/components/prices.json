@@ -1,0 +1,38 @@
+{
+    "mensual": [
+      {
+        "tipo": "Básico",
+        "precio": 40,
+        "descripcion": "Acceso al gimnasio durante un mes"
+      },
+      {
+        "tipo": "Premium",
+        "precio": 60,
+        "descripcion": "Acceso al gimnasio y clases ilimitadas durante un mes"
+      }
+    ],
+    "trimestral": [
+      {
+        "tipo": "Básico",
+        "precio": 100,
+        "descripcion": "Acceso al gimnasio durante tres meses"
+      },
+      {
+        "tipo": "Premium",
+        "precio": 150,
+        "descripcion": "Acceso al gimnasio y clases ilimitadas durante tres meses"
+      }
+    ],
+    "anual": [
+      {
+        "tipo": "Básico",
+        "precio": 360,
+        "descripcion": "Acceso al gimnasio durante un año"
+      },
+      {
+        "tipo": "Premium",
+        "precio": 500,
+        "descripcion": "Acceso al gimnasio y clases ilimitadas durante un año"
+      }
+    ]
+  }
