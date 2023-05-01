@@ -1,36 +1,38 @@
-# Título del proyecto
+# GymPope
 
-Pagina web del gimnasio del papa
+Website of the Pope's gym.
 
-## Tabla de contenidos
+## Table of Contents
 
-- [Características](#características)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuir](#contribuir)
-- [Créditos](#créditos)
-- [Licencia](#licencia)
+- [Features](#features)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-## Características
+## Features
 
-- Funcionalidad 1: esto es un prollecto en desarrollo en el cual estamos crando una pagina web como tarea de clase.
+- Feature 1: This is a project in development in which we are creating a website as a class assignment.
 
+## Installation
 
-## Instalación
+1. Clone this repository.
+2. Install dependencies with `npm install`.
+3. Configure the `.env` file with your credentials.
+4. Run the command `npm start` to start the application.
 
-Clona este repositorio.
-Instala las dependencias con npm install.
-Configura el archivo .env con tus credenciales.
-Ejecuta el comando npm start para iniciar la aplicación.
+## Usage
 
-## Contribuir
+Instructions on how to use the project once installed.
 
-Uselo como gustes, y añada al proyecto lo que le de la gana
+## Contributing
 
-## Créditos
+Use it as you wish, and add whatever you want to the project.
+
+## Credits
 
 JoseCarlos2025.
 
-## Licencia
+## License
 
-Libre uso.
+Free to use.
