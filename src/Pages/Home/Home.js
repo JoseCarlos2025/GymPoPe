@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import imagen from'../../img/image 1.png';
+import imagen from '../../img/image 1.png';
 import './Home.css'
 
 
@@ -17,7 +17,7 @@ function Home() {
                     <img src={imagen} alt="papa haciendo pesas" />
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 }
