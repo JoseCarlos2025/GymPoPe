@@ -3,33 +3,33 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import './prices.css';
 
-const Price= () => {
+const Price = () => {
   return (
     <>
-        <Header/>
-        <table>
+      <Header />
+      <table>
         <thead>
-            <tr>
+          <tr>
             <th>Categoría</th>
             <th>Tipo</th>
             <th>Precio</th>
             <th>Descripción</th>
-            </tr>
+          </tr>
         </thead>
         <tbody>
-            {Object.keys(prices).map((category) => (
+          {Object.keys(prices).map((category) => (
             prices[category].map((price) => (
-                <tr key={price.tipo}>
+              <tr key={price.tipo}>
                 <td>{category}</td>
                 <td>{price.tipo}</td>
                 <td>${price.precio}</td>
                 <td>{price.descripcion}</td>
-                </tr>
+              </tr>
             ))
-            ))}
+          ))}
         </tbody>
-        </table>
-        <Footer/>
+      </table>
+      <Footer />
     </>
   );
 };
