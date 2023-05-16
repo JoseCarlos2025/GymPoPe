@@ -46,10 +46,11 @@
 
 .footer__form-group {
     margin-bottom: 10px;
+
 }
 
 .footer__form-control {
-    width: 100%;
+    width: 90%;
     height: 40px;
     padding: 0 10px;
     border: 1px solid #ced4da;
@@ -84,7 +85,50 @@
 
 @media screen and (max-width: 768px) {
     .footer__section {
-        flex: 1 1 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .footer__section a{
+        text-align: center;
+    }
+
+    .footer__section li{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__section p{
+        text-align: center;
+    }
+
+    .footer__section h3{
+        text-align: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__form-group{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__form-control {
+        height: 30px;
+        width: 85%;
+    }
+
+    .footer__btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer__section {
+        display: flex;
+        justify-content: center;
     }
 
     .footer__content {
@@ -92,7 +136,8 @@
     }
 
     .footer__form-control {
-        height: 50px;
+        height: 30px;
+        width: 80%;
     }
 
     .footer__btn {
