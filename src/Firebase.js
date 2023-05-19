@@ -8,6 +8,7 @@ import { getDatabase } from "firebase/database";
 const firebaseConfig = {
   apiKey: "AIzaSyDTde7hrdWunyL-ScqIcNmWkwT0w-L2C-s",
   authDomain: "gympope-9f9c3.firebaseapp.com",
+  databaseURL: "https://gympope-9f9c3-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "gympope-9f9c3",
   storageBucket: "gympope-9f9c3.appspot.com",
   messagingSenderId: "866742471199",
